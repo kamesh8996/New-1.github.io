@@ -1,0 +1,42 @@
+HTML:
+=====
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+        <h2>Background-Blend in css</h2>
+        <div>
+        </div>
+</body>
+</html>
+--------------------------------------------------------------------------------------------------------
+CSS:
+====
+
+div{
+	padding-left: 80px;
+	width: 400px;
+	height: 400px;
+	border: 2px solid #332;
+	background: linear-gradient(white,#00eeff),url(file:///C:/Users/Asus/Downloads/tom_jerry-removebg-preview.png);
+   background-size: cover;
+   background-blend-mode:normal ;
+   background-blend-mode: screen;
+   background-blend-mode: overlay;
+   background-blend-mode: darken;
+   background-blend-mode: hard-light;
+   background-blend-mode: soft-light;
+   background-blend-mode: multiply;
+   background-blend-mode: color-burn;
+   background-blend-mode: difference;
+   background-blend-mode: exclusion;
+   background-blend-mode: hue;
+   background-blend-mode: color;
+   background-blend-mode: saturation;
+   background-blend-mode: luminosity;
+}
